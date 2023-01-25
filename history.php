@@ -3,42 +3,7 @@
    Author URL: http://w3layouts.com
    -->
 <!DOCTYPE html>
-<html lang="zxx">
-   <head>
-      <title>Dragon Hunt a Games Category Bootstrap responsive Website Template | History :: w3layouts</title>
-      <!--meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Dragon Hunt Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-      <script>
-         addEventListener("load", function () {
-         	setTimeout(hideURLbar, 0);
-         }, false);
-         
-         function hideURLbar() {
-         	window.scrollTo(0, 1);
-         }
-      </script>
-      <!--//meta tags ends here-->
-      <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <!--//booststrap end-->
-      <!-- font-awesome icons -->
-      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
-      <!-- //font-awesome icons -->
-      <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
-      <!--//stylesheets-->
-      <!-- Nav-CSS -->	
-      <link href="css/nav.css" rel="stylesheet" type="text/css" media="all" />
-      <script src="js/modernizr.custom.js"></script>
-      <!-- //Nav-CSS -->
-      <link href="css/timeline.min.css" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-   </head>
+<?php include 'includes/head.php'?>
    <body>
       <!--headder-->
       <div class="header-outs">
@@ -56,18 +21,18 @@
                   <button type="button" class="overlay-close">Close</button>
                   <nav>
                      <ul>
-                        <li><a href="index.html" >Home</a></li>
-                        <li><a href="about.html" >About</a></li>
-                        <li><a href="history.html" >History</a></li>
-                        <li><a href="hero.html" >Avatar</a></li>
-                        <li><a href="gallery.html" >Gallery</a></li>
-                        <li><a href="contact.html"  >Contact</a></li>
+                        <li><a href="index.php" >Home</a></li>
+                        <li><a href="about.php" >About</a></li>
+                        <li><a href="history.php" >History</a></li>
+                        <li><a href="hero.php" >Avatar</a></li>
+                        <li><a href="gallery.php" >Gallery</a></li>
+                        <li><a href="contact.php"  >Contact</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="hedder-logo">
-                  <h1><a href="index.html">   
-                     <img src="images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                  <h1><a href="index.php">   
+                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
                   </h1>
                </div>
                <!-- /open/close -->
@@ -100,7 +65,7 @@
                         </div>
                         <div class="timeline__item">
                            <div class="timeline__content">
-                              <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                              <img src="dragon_hunt/images/ss2.jpg" alt=" " class="img-fluid">
                            </div>
                         </div>
                         <div class="timeline__item">
@@ -128,7 +93,7 @@
                         </div>
                         <div class="timeline__item">
                            <div class="timeline__content">
-                              <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                              <img src="dragon_hunt/images/ss2.jpg" alt=" " class="img-fluid">
                            </div>
                         </div>
                      </div>
@@ -142,7 +107,7 @@
                   <div class="col-md-6">
                      <div class=" row ser-agile-main">
                         <div class="col-lg-6 service-img">
-                           <img src="images/ss1.jpg" alt=" " class="img-fluid">
+                           <img src="dragon_hunt/images/ss1.jpg" alt=" " class="img-fluid">
                         </div>
                         <div class="col-lg-6 service-text-list">
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -154,7 +119,7 @@
                   <div class="col-md-6">
                      <div class="row ser-agile-main">
                         <div class="col-lg-6 service-img">
-                           <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                           <img src="dragon_hunt/images/ss2.jpg" alt=" " class="img-fluid">
                         </div>
                         <div class="col-lg-6 service-text-list">
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -173,7 +138,7 @@
                            </p>
                         </div>
                         <div class="col-lg-6 service-img">
-                           <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                           <img src="dragon_hunt/images/ss2.jpg" alt=" " class="img-fluid">
                         </div>
                      </div>
                   </div>
@@ -185,7 +150,7 @@
                            </p>
                         </div>
                         <div class="col-lg-6 service-img">
-                           <img src="images/ss1.jpg" alt=" " class="img-fluid">
+                           <img src="dragon_hunt/images/ss1.jpg" alt=" " class="img-fluid">
                         </div>
                      </div>
                   </div>
@@ -278,40 +243,6 @@
             </div>
          </section>
          <!--Footer -->   
-      <footer class="py-2">
-         <div class="icons text-center py-md-3 pb-2">
-            <ul>
-               <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-               <li><a href="#"><span class="fas fa-envelope"></span></a></li>
-               <li><a href="#"><span class="fas fa-rss"></span></a></li>
-               <li><a href="#"><span class="fab fa-vk"></span></a></li>
-            </ul>
-         </div>
-         <div class="footer-below text-center">
-            <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
-         </div>
-      </footer>
-         <!-- //Footer -->
-         <!--js working-->
-         <script src='js/jquery-2.2.3.min.js'></script>
-         <!--//js working-->
-         <!--nav menu-->
-         <script src="js/classie.js"></script>
-         <script src="js/demonav.js"></script>
-         <!-- //nav menu-->
-         <!-- timeline-->
-         <script src="js/timeline.min.js"></script>
-         <script>
-            timeline(document.querySelectorAll('.timeline'), {
-            	forceVerticalMode: 700,
-            	mode: 'horizontal',
-            	verticalStartPosition: 'left',
-            	visibleItems: 4
-            });
-         </script>
-         <!-- //timeline-->
-         <!--bootstrap working-->
-         <script src="js/bootstrap.min.js"></script>
-         <!-- //bootstrap working-->
+         <?php include 'includes/footer.php'; ?>
    </body>
 </html>
