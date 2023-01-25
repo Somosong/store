@@ -2,8 +2,9 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
-<!DOCTYPE html>
-<?php include 'includes/head.php'?>
+   <!DOCTYPE html>
+<html lang="zxx">
+   <?php include 'includes/head.php'?>
    <body>
       <!--headder-->
       <div class="header-outs">
@@ -243,6 +244,40 @@
             </div>
          </section>
          <!--Footer -->   
-         <?php include 'includes/footer.php'; ?>
+      <footer class="py-2">
+         <div class="icons text-center py-md-3 pb-2">
+            <ul>
+               <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+               <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+               <li><a href="#"><span class="fas fa-rss"></span></a></li>
+               <li><a href="#"><span class="fab fa-vk"></span></a></li>
+            </ul>
+         </div>
+         <div class="footer-below text-center">
+            <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
+         </div>
+      </footer>
+         <!-- //Footer -->
+         <!--js working-->
+         <script src='dragon_hunt/js/jquery-2.2.3.min.js'></script>
+         <!--//js working-->
+         <!--nav menu-->
+         <script src="dragon_hunt/js/classie.js"></script>
+         <script src="dragon_hunt/js/demonav.js"></script>
+         <!-- //nav menu-->
+         <!-- timeline-->
+         <script src="dragon_hunt/js/timeline.min.js"></script>
+         <script>
+            timeline(document.querySelectorAll('.timeline'), {
+            	forceVerticalMode: 700,
+            	mode: 'horizontal',
+            	verticalStartPosition: 'left',
+            	visibleItems: 4
+            });
+         </script>
+         <!-- //timeline-->
+         <!--bootstrap working-->
+         <script src="dragon_hunt/js/bootstrap.min.js"></script>
+         <!-- //bootstrap working-->
    </body>
 </html>

@@ -24,9 +24,10 @@
       <!-- Nav-CSS -->	
       <link href="dragon_hunt/css/nav.css" rel="stylesheet" type="text/css" media="all" />
       <script src="dragon_hunt/js/modernizr.custom.js"></script>
-      <!-- //Nav-CSS -->	
+      <!-- //Nav-CSS -->
+      <link href="dragon_hunt/css/timeline.min.css" rel="stylesheet">
       <!-- banner -->	
-      <link rel="stylesheet" type="text/css" href="css/uncover.css" />
+      <link rel="stylesheet" type="text/css" href="dragon_hunt/css/uncover.css" />
       <!--//banner -->	
       <!--stylesheets-->
       <link href="dragon_hunt/css/style.css" rel='stylesheet' type='text/css' media="all">

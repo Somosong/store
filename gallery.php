@@ -121,5 +121,18 @@
          </section>
          <!--Footer -->   
          <?php include 'includes/footer.php'; ?>
+          <!--js working-->
+          <script src='dragon_hunt/js/jquery-2.2.3.min.js'></script>
+         <!--//js working-->
+         <!--nav menu-->
+         <script src="dragon_hunt/js/classie.js"></script>
+         <script src="dragon_hunt/js/demonav.js"></script>
+         <!-- //nav menu-->
+         <!--  light box js -->
+         <script src="dragon_hunt/js/lightbox-plus-jquery.min.js"> </script> 
+         <!-- //light box js-->   
+         <!--bootstrap working-->
+         <script src="dragon_hunt/js/bootstrap.min.js"></script>
+         <!-- //bootstrap working-->
    </body>
 </html>

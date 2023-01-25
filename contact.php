@@ -143,5 +143,15 @@
          </section>
          <!--Footer -->   
          <?php include 'includes/footer.php'; ?>
+         <!--js working-->
+         <script src='dragon_hunt/js/jquery-2.2.3.min.js'></script>
+         <!--//js working-->
+         <!--nav menu-->
+         <script src="dragon_hunt/js/classie.js"></script>
+         <script src="dragon_hunt/js/demonav.js"></script>
+         <!-- //nav menu-->
+         <!--bootstrap working-->
+         <script src="dragon_hunt/js/bootstrap.min.js"></script>
+         <!-- //bootstrap working-->
    </body>
 </html>

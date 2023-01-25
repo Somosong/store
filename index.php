@@ -117,5 +117,21 @@
       <!--//banner-->
       <!--Footer -->   
       <?php include 'includes/footer.php'; ?>
+      <!-- js working-->
+      <script src='dragon_hunt/js/jquery-2.2.3.min.js'></script>
+      <!--//js working-->
+      <!-- For-Banner -->
+      <script src="dragon_hunt/js/imagesloaded.pkgd.min.js"></script>
+      <script src="dragon_hunt/js/anime.min.js"></script>
+      <script src="dragon_hunt/js/uncover.js"></script>
+      <script src="dragon_hunt/js/demo1.js"></script>
+      <!-- //For-Banner -->
+      <!--nav menu-->
+      <script src="dragon_hunt/js/classie.js"></script>
+      <script src="dragon_hunt/js/demonav.js"></script>
+      <!-- //nav menu-->
+      <!-- bootstrap working-->
+      <script src="dragon_hunt/js/bootstrap.min.js"></script>
+      <!-- // bootstrap working--> 
    </body>
 </html>

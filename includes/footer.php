@@ -1,4 +1,5 @@
-<footer class="py-2">
+      <!--Footer -->   
+      <footer class="py-2">
          <div class="icons text-center py-md-3 pb-2">
             <ul>
                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
@@ -12,14 +13,3 @@
          </div>
       </footer>
       <!-- //Footer -->
-      <!--js working-->
-      <script src='js/jquery-2.2.3.min.js'></script>
-      <!-- For the demo ad only -->  
-      <!--nav menu-->
-      <script src="js/classie.js"></script>
-      <script src="js/demonav.js"></script>
-      <!-- //nav menu-->
-      <!-- //nav menu-->
-      <!--bootstrap working-->
-      <script src="js/bootstrap.min.js"></script>
-      <!-- //bootstrap working-->
