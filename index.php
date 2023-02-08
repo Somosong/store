@@ -20,18 +20,17 @@
                   <button type="button" class="overlay-close">Close</button>
                   <nav>
                      <ul>
-                        <li><a href="index.php" >Home</a></li>
-                        <li><a href="about.php" >About</a></li>
-                        <li><a href="history.php" >History</a></li>
-                        <li><a href="hero.php" >Avatar</a></li>
-                        <li><a href="gallery.php" >Gallery</a></li>
-                        <li><a href="contact.php"  >Contact</a></li>
+                        <li><a href="index.php" >Pagina Principal</a></li>
+                        <li><a href="about.php" >Sobre Nosotros</a></li>
+                        <li><a href="exclusive.php" >Exclusivo</a></li>
+                        <li><a href="gallery.php" >Galleria</a></li>
+                        <li><a href="contact.php"  >Contactanos</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="hedder-logo">
                   <h1><a href="index.php">   
-                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">SO</a>
                   </h1>
                </div>
                <!-- /open/close -->
@@ -43,10 +42,10 @@
          <div class="slides text-center">
             <div class="slide slide--current one-img ">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Enter Now</a>
                   </div>
                </div>
                <div class="slide__img">
@@ -55,7 +54,7 @@
             <div class="slide two-img">
                <div class="slider-up">
                   <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
                   <div class="outs_more-buttn">
                      <a href="contact.php">Play Now</a>
                   </div>
@@ -65,7 +64,7 @@
             <div class="slide three-img">
                <div class="slider-up">
                   <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
                   <div class="outs_more-buttn">
                      <a href="contact.php">Play Now</a>
                   </div>

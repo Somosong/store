@@ -9,7 +9,7 @@
             </ul>
          </div>
          <div class="footer-below text-center">
-            <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
+          <p>© 2023 Creado por:<a href="https://github.com/Somosong" >  Somosong </a></p>
          </div>
       </footer>
       <!-- //Footer -->

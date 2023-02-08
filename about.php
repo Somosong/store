@@ -21,10 +21,9 @@
                   <button type="button" class="overlay-close">Close</button>
                   <nav>
                      <ul>
-                        <li><a href="index.php" >Home</a></li>
-                        <li><a href="about.php" >About</a></li>
-                        <li><a href="history.php" >History</a></li>
-                        <li><a href="hero.php" >Avatar</a></li>
+                        <li><a href="index.php" >Pagina Principal</a></li>
+                        <li><a href="about.php" >Sobre Nosotros</a></li>
+                        <li><a href="exclusive.php" >Exclusivo</a></li>
                         <li><a href="gallery.php" >Gallery</a></li>
                         <li><a href="contact.php"  >Contact</a></li>
                      </ul>
@@ -49,14 +48,14 @@
       <!--about-->
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">About Us</h3>
+            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Sobre Nosotros</h3>
             <div class="row">
                <div class="col-lg-6 about-txt-left">
                   <img src="dragon_hunt/images/ab1.png" alt="" class="img-fluid">
                </div>
                <div class="col-lg-6 about-txt-right">
                   <div class="jst-wthree-text">
-                     <h2>What We Make<br>For You
+                     <h2>¿Que hacemos?<br>
                      </h2>
                   </div>
                   <div class="info-sub-w3">

@@ -21,10 +21,9 @@
                   <button type="button" class="overlay-close">Close</button>
                   <nav>
                      <ul>
-                        <li><a href="index.php" >Home</a></li>
-                        <li><a href="about.php" >About</a></li>
-                        <li><a href="history.php" >History</a></li>
-                        <li><a href="hero.php" >Avatar</a></li>
+                        <li><a href="index.php" >Pagina Principal</a></li>
+                        <li><a href="about.php" >Sobre Nosotros</a></li>
+                        <li><a href="exclusive.php" >Exclusivo</a></li>
                         <li><a href="gallery.php" >Gallery</a></li>
                         <li><a href="contact.php"  >Contact</a></li>
                      </ul>

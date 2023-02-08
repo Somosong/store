@@ -30,7 +30,7 @@ img{max-width:100%;}
 /****-----start-body----****/
 body{
 text-align: center;
-background: url("../images/1.jpg") 0px 0px no-repeat;
+background: url(http://dkreativo.es/archivos/images/crear-una-tienda-virtual.jpg) 0px 0px no-repeat;
 background-size:cover;
 background-attachment: fixed;
 }
@@ -60,7 +60,7 @@ font-family: "Asap-Regular";
 }
 .header h1 {
 font-size:50px;
-color: #fff;
+color: rgb(224, 199, 83);
 font-family: "Audiowide-Regular";
 letter-spacing:3px;
 margin:0 auto;
