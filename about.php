@@ -2,6 +2,7 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
+   <?php $title="Sobre nosotros"?>
 <!DOCTYPE html>
 <?php include 'includes/head.php'?>
    <body>
@@ -24,8 +25,7 @@
                         <li><a href="index.php" >Pagina Principal</a></li>
                         <li><a href="about.php" >Sobre Nosotros</a></li>
                         <li><a href="exclusive.php" >Exclusivo</a></li>
-                        <li><a href="gallery.php" >Gallery</a></li>
-                        <li><a href="contact.php"  >Contact</a></li>
+                        <li><a href="contact.php"  >Contactanos</a></li>
                      </ul>
                   </nav>
                </div>
@@ -51,11 +51,11 @@
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Sobre Nosotros</h3>
             <div class="row">
                <div class="col-lg-6 about-txt-left">
-                  <img src="dragon_hunt/images/ab1.png" alt="" class="img-fluid">
+                  <img src="images/mini_pana.png" alt="" class="img-fluid">
                </div>
                <div class="col-lg-6 about-txt-right">
                   <div class="jst-wthree-text">
-                     <h2>¿Que hacemos?<br>
+                     <h2>¿Quienes Somos?<br>
                      </h2>
                   </div>
                   <div class="info-sub-w3">

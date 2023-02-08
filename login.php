@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <head>
 <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1065329363853250591/1070411013658247168/carrito-supermercado-metalico-dorado-articulos-compras-internet-agregando-icono-d-vector-realista_92753-5317-removebg-preview.png">
-<title>Formulario de Registro Somosong | Somosong</title>
+<title>Inicio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Somosong Login Form Widget Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements"/>
@@ -20,7 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<div class="padding-all">
 		<div class="header">
-			<h1>Formulario de Registro Somosong</h1>
+			<h1>Iniciar sesión</h1>
 			<img src="https://cdn.discordapp.com/attachments/1065329363853250591/1070411013658247168/carrito-supermercado-metalico-dorado-articulos-compras-internet-agregando-icono-d-vector-realista_92753-5317-removebg-preview.png" alt="" height="200px">
 		</div>
 

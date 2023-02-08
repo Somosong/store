@@ -1,10 +1,12 @@
 <head>
-      <title>Dragon Hunt a Games Category Bootstrap responsive Website Template | Home :: w3layouts</title>
+      <title><?php echo $title ?></title>
       <!--meta tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="keywords" content="Dragon Hunt Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
          Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+      
+         <!--NO ES PARTE DE HEAD A PARTIR DE AQUI-->
       <script>
          addEventListener("load", function () {
          	setTimeout(hideURLbar, 0);
