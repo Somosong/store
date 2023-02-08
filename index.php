@@ -2,6 +2,7 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
+<?php $title="Home"?>
 <!DOCTYPE html>
    <?php include 'includes/head.php'?>
    <body>
@@ -23,7 +24,6 @@
                         <li><a href="index.php" >Pagina Principal</a></li>
                         <li><a href="about.php" >Sobre Nosotros</a></li>
                         <li><a href="exclusive.php" >Exclusivo</a></li>
-                        <li><a href="gallery.php" >Galleria</a></li>
                         <li><a href="contact.php"  >Contactanos</a></li>
                      </ul>
                   </nav>
@@ -43,9 +43,9 @@
             <div class="slide slide--current one-img ">
                <div class="slider-up">
                   <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Enter Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img">
@@ -53,50 +53,50 @@
             </div>
             <div class="slide two-img">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img"></div>
             </div>
             <div class="slide three-img">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >ong</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img "></div>
             </div>
             <div class="slide four-img">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img "></div>
             </div>
             <div class="slide five-img">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-<spaand-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img "></div>
             </div>
             <div class="slide six-img">
                <div class="slider-up">
-                  <h4>DH</h4>
-                  <h5>Dragon<span class="fab fa-d-and-d"></span >Hunt</h5>
+                  <h4>SO</h4>
+                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Play Now</a>
+                     <a href="contact.php">Start shopping</a>
                   </div>
                </div>
                <div class="slide__img "></div>

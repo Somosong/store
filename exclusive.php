@@ -2,6 +2,7 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
+   <?php $title="Exclusivos"?>
 <!DOCTYPE html>
 <?php include 'includes/head.php'?>
    <body>
@@ -24,8 +25,7 @@
                         <li><a href="index.php" >Pagina Principal</a></li>
                         <li><a href="about.php" >Sobre Nosotros</a></li>
                         <li><a href="exclusive.php" >Exclusivo</a></li>
-                        <li><a href="gallery.php" >Gallery</a></li>
-                        <li><a href="contact.php"  >Contact</a></li>
+                        <li><a href="contact.php"  >Contactanos</a></li>
                      </ul>
                   </nav>
                </div>

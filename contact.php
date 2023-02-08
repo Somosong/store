@@ -2,6 +2,7 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
+   <?php $title="Contacto"?>
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
@@ -58,8 +59,7 @@
                         <li><a href="index.php" >Pagina Principal</a></li>
                         <li><a href="about.php" >Sobre Nosotros</a></li>
                         <li><a href="exclusive.php" >Exclusivo</a></li>
-                        <li><a href="gallery.php" >Gallery</a></li>
-                        <li><a href="contact.php"  >Contact</a></li>
+                        <li><a href="contact.php"  >Contactanos</a></li>
                      </ul>
                   </nav>
                </div>
@@ -83,25 +83,25 @@
          <!--headder-->
          <section class="contact-inner py-lg-4 py-md-3 py-sm-3 py-3">
             <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
-               <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Get in Touch</h3>
+               <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Ponerse en contacto</h3>
                <div class=" contact-wls-detail">
                   <div class="contact-form">
                      <form action="#" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Name" required="">
+                              <input type="text" class="form-control" placeholder="Nombre" required="">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
                               <input type="email" class="form-control" placeholder="Email" required="">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Phone" required="">
+                              <input type="text" class="form-control" placeholder="Teléfono" required="">
                            </div>
                         </div>
                         <div class="form-group contact-forms">
-                           <textarea class="form-control" placeholder="Meassage" required=""></textarea >
+                           <textarea class="form-control" placeholder="Mensaje" required=""></textarea >
                         </div>
-                        <button type="button" class="btn sent-butnn btn-lg">Send</button>
+                        <button type="button" class="btn sent-butnn btn-lg">Enviar</button>
                      </form>
                   </div>
                </div>
@@ -110,17 +110,17 @@
                      <div class="text-center contact-address-grid">
                         <div class="footer_grid_left">
                            <div class="contact_footer_grid_left text-center mb-3">
-                              <h5> Address</h5>
+                              <h5> Dirección</h5>
                            </div>
-                           <p>Melbourne,south Brisbane, <br>QLD 4101,Aurstralia.</p>
+                           <p>MC. Can Valero, 19, 07011 Palma, Illes Balears</p>
                         </div>
                      </div>
                      <div class=" text-center contact-address-grid">
                         <div class="footer_grid_left">
                            <div class="contact_footer_grid_left text-center mb-3">
-                              <h5>Phone</h5>
+                              <h5>Teléfono</h5>
                            </div>
-                           <p>+(000) 123 4565 32 <br>+(010) 123 4565 354</p>
+                           <p>+34 123 45 67 89</p>
                         </div>
                      </div>
                      <div class="text-center contact-address-grid">
@@ -128,14 +128,14 @@
                            <div class="contact_footer_grid_left text-center mb-3">
                               <h5>Email</h5>
                            </div>
-                           <p><a href="mailto:info@example.com">info@example1.com</a> 
-                              <br><a href="mailto:info@example.com">info@example2.com</a>
+                           <p><a href="mailto:info@example.com">somosong_comp@gmail.com</a> 
+                              <br><a href="mailto:info@example.com">somosong_info@gmail.com</a>
                            </p>
                         </div>
                      </div>
                   </div>
                   <div class="col-lg-6 col-md-6 address_mail_footer_grids">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3539.812628729253!2d153.014155!3d-27.4750921!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a0835840a2f%3A0xdd5e3f5c208dc0e1!2sMelbourne+St%2C+South+Brisbane+QLD+4101%2C+Australia!5e0!3m2!1sen!2sin!4v1492257477691"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.2766078352806!2d2.6303127151008527!3d39.598450979468666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792501b357b1d%3A0x7ca712eb8d27073f!2sCooperativa%20de%20Ense%C3%B1anza%20Aula%20Balear!5e0!3m2!1sen!2ses!4v1675878240117!5m2!1sen!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
             </div>
