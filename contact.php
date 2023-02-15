@@ -89,9 +89,9 @@
                   $name = isset($_POST["name"]) ? $_POST["name"] : "";
                   $email = isset($_POST["email"]) ? $_POST["email"] : "";
                   $phone = isset($_POST["phone"]) ? $_POST["phone"] : "";
-                  $comment = isset($_POST["comment"]) ? $_POST["comment"] : "";
+                  $text = isset($_POST["text"]) ? $_POST["text"] : "";
 
-                  if (($name !="") and ($email !="") and ($phone !="") and ($comment !="")) {
+                  if (($name !="") and ($email !="") and ($phone !="") and ($text !="")) {
                      $filled = true;
                   } else {
                      $filled = false;
@@ -111,7 +111,7 @@
                            </div>
                         </div>
                         <div class="form-group contact-forms">
-                           <textarea class="form-control" placeholder="Mensaje" required value="<?php echo $comment; ?>"></textarea >
+                           <textarea class="form-control" placeholder="Mensaje" required value="<?php echo $text; ?>"></textarea >
                         </div>
                         <button type="submit" class="btn sent-butnn btn-lg">Enviar</button>
                      </form>
