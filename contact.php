@@ -65,7 +65,7 @@
                </div>
                <div class="hedder-logo">
                   <h1><a href="index.php">   
-                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">SO</a>
                   </h1>
                </div>
                <!-- /open/close -->
@@ -85,24 +85,41 @@
             <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
                <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Ponerse en contacto</h3>
                <div class=" contact-wls-detail">
+                  <?php
+                  $name = isset($_POST["name"]) ? $_POST["name"] : "";
+                  $email = isset($_POST["email"]) ? $_POST["email"] : "";
+                  $phone = isset($_POST["phone"]) ? $_POST["phone"] : "";
+                  $comment = isset($_POST["comment"]) ? $_POST["comment"] : "";
+
+                  if (($name !="") and ($email !="") and ($phone !="") and ($comment !="")) {
+                     $filled = true;
+                  } else {
+                     $filled = false;
+                  }
+                  ?>
                   <div class="contact-form">
-                     <form action="#" method="post">
+                     <form action="thanks.php" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Nombre" required="">
+                              <input type="text" class="form-control" placeholder="Nombre" required value="<?php echo $name; ?>">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="email" class="form-control" placeholder="Email" required="">
+                              <input type="email" class="form-control" placeholder="Email" required value="<?php echo $email; ?>">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Teléfono" required="">
+                              <input type="text" class="form-control" placeholder="Teléfono" required value="<?php echo $phone; ?>">
                            </div>
                         </div>
                         <div class="form-group contact-forms">
-                           <textarea class="form-control" placeholder="Mensaje" required=""></textarea >
+                           <textarea class="form-control" placeholder="Mensaje" required value="<?php echo $comment; ?>"></textarea >
                         </div>
-                        <button type="button" class="btn sent-butnn btn-lg">Enviar</button>
+                        <button type="submit" class="btn sent-butnn btn-lg">Enviar</button>
                      </form>
+                     <?php
+                     if($filled==true) {
+                        header("Location: thanks.php");
+                     }
+                     ?>
                   </div>
                </div>
                <div class="contact-address row mt-lg-5 mt-md-4 mt-3">

@@ -4,6 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<?php include 'includes/dbconn.php';
+isset($_POST["name"]) ? print $_POST["name"] : ""; ?>
 <!DOCTYPE html>
 <html>
 
@@ -26,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 		<div class="design-w3l">
 			<div class="mail-form-agile">
-				<form action="#" method="post">
+				<form action="user.php" method="post">
 					<input type="text" name="name" placeholder="Nombre de Usuario o  Email..." required=""/>
 					<input type="password"  name="password" class="padding" placeholder="Contraseña" required=""/>
 					<input type="submit" value="Enviar">
