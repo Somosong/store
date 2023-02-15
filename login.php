@@ -5,7 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php include 'includes/dbconn.php';
-isset($_POST["name"]) ? print $_POST["name"] : ""; ?>
+isset($_POST["name"]) ? print $_POST["name"] : "";
+isset($_POST["password"]) ? print $_POST["password"] : "" ?>
 <!DOCTYPE html>
 <html>
 

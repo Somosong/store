@@ -2,7 +2,7 @@
    Author: W3layout
    Author URL: http://w3layouts.com
    -->
-<?php $title="Home"?>
+<?php $title="Somosong"?>
 <!DOCTYPE html>
    <?php include 'includes/head.php'?>
    <body>
