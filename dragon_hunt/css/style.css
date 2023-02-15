@@ -120,6 +120,18 @@ button#trigger-overlay {
   cursor: pointer;
 }
 
+button#iniciarsesion {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  width: 130px;
+  height: 37px;
+  cursor: pointer;
+}
+
 .header-w3layouts {
   padding-top: 2em;
   position: absolute;
@@ -147,27 +159,7 @@ button#trigger-overlay {
 /*--//nav --*/
 /*--- slider-css --*/
 .one-img {
-  background: url(../images/b1.jpg) no-repeat 0px 0px;
-}
-
-.two-img {
-  background: url(../images/b2.jpg) no-repeat 0px 0px;
-}
-
-.three-img {
-  background: url(../images/b3.jpg) no-repeat 0px 0px;
-}
-
-.four-img {
-  background: url(../images/b4.jpg) no-repeat 0px 0px;
-}
-
-.five-img {
-  background: url(../images/b5.jpg) no-repeat 0px 0px;
-}
-
-.six-img {
-  background: url(../images/b6.jpg) no-repeat 0px 0px;
+  background: url(http://img2.joyreactor.com/pics/post/gif-shop-faxdoc-pixel-art-2517064.gif) no-repeat 0px 0px;
 }
 
 footer {
@@ -253,7 +245,7 @@ footer {
 .slider-up h4 {
   font-size: 78px;
   padding-bottom: 10px;
-  color: #fff;
+  color: rgb(245, 28, 28);
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'Cinzel Decorative', cursive;
@@ -294,7 +286,7 @@ footer {
 /*--Banner-inner --*/
 .inner_page-banner {
   text-align: center;
-  background: url(https://wallpapershome.com/images/pages/pic_h/21250.jpg) no-repeat center;
+  background: url(http://img2.joyreactor.com/pics/post/gif-shop-faxdoc-pixel-art-2517064.gif) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

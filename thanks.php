@@ -45,7 +45,7 @@
             <div class="container">
                <div class="hedder-logo">
                   <h1><a href="index.php">   
-                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">SO</a>
                   </h1>
                </div>
                <!-- /open/close -->

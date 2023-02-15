@@ -11,6 +11,10 @@
             <div class="container">
                <div class="right-side">
                   <p>
+                  <form action="login.php" method="post">
+                     <button type="submit" id="iniciarsesion" type="button">
+                     <span aria-hidden="true"></span>
+                     Iniciar Sesion</button>
                      <button id="trigger-overlay" type="button">
                      <span class="fa fa-bars" aria-hidden="true"></span>
                      </button>
@@ -35,82 +39,26 @@
                </div>
                <!-- /open/close -->
                <!-- /navigation section -->
+               
             </div>
             <div class="clearfix"> </div>
          </div>
          <!--banner-->
+         
          <div class="slides text-center">
+            
             <div class="slide slide--current one-img ">
                <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
+                  <br><br><br>
+                  <h5><b>Somo</b><span class="fab fa-d-and-d"></span ><b>song</b></h5>
+                  
                   <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
+                     <a href="exclusive.php">Empezar Compra</a>
                   </div>
                </div>
-               <div class="slide__img">
-               </div>
-            </div>
-            <div class="slide two-img">
-               <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
-                  <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
-                  </div>
-               </div>
-               <div class="slide__img"></div>
-            </div>
-            <div class="slide three-img">
-               <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
-                  <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
-                  </div>
-               </div>
-               <div class="slide__img "></div>
-            </div>
-            <div class="slide four-img">
-               <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
-                  <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
-                  </div>
-               </div>
-               <div class="slide__img "></div>
-            </div>
-            <div class="slide five-img">
-               <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-<spaand-d"></span >song</h5>
-                  <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
-                  </div>
-               </div>
-               <div class="slide__img "></div>
-            </div>
-            <div class="slide six-img">
-               <div class="slider-up">
-                  <h4>SO</h4>
-                  <h5>Somo<span class="fab fa-d-and-d"></span >song</h5>
-                  <div class="outs_more-buttn">
-                     <a href="contact.php">Start shopping</a>
-                  </div>
-               </div>
-               <div class="slide__img "></div>
             </div>
             <div class="clearfix"></div>
          </div>
-         <ul class="pagination">
-            <li><span class="pagination__item"> </span></li>
-            <li><span class="pagination__item"> </span></li>
-            <li><span class="pagination__item"> </span></li>
-            <li><span class="pagination__item"> </span></li>
-            <li><span class="pagination__item"> </span></li>
-            <li><span class="pagination__item"> </span></li>
-         </ul>
          <div class="clearfix"></div>
       </div>
       <!--//banner-->
