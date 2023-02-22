@@ -65,7 +65,7 @@
                   }
                   ?>
                   <div class="contact-form">
-                     <form action="thanks.php" method="post">
+                     <form action="save.php" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
                               <input type="text" class="form-control" placeholder="Nombre" required value="<?php echo $name; ?>">
@@ -84,7 +84,7 @@
                      </form>
                      <?php
                      if($filled==true) {
-                        header("Location: thanks.php");
+                        header("Location: save.php");
                      }
                      ?>
                   </div>

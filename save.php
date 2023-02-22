@@ -38,5 +38,7 @@
 
     // Close connection
     mysqli_close($conn);
+
+    header("Location: thanks.php")
     ?>
 </body>
