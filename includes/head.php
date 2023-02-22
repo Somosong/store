@@ -1,4 +1,5 @@
 <head>
+      <link rel="shortcut icon" href="dragon_hunt/images/logo.png">
       <title><?php echo $title ?></title>
       <!--meta tags -->
       <meta charset="UTF-8">

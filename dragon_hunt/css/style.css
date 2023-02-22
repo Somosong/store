@@ -286,7 +286,7 @@ footer {
 /*--Banner-inner --*/
 .inner_page-banner {
   text-align: center;
-  background: url(http://img2.joyreactor.com/pics/post/gif-shop-faxdoc-pixel-art-2517064.gif) no-repeat center;
+  background: url(../../images/fondo.gif) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
