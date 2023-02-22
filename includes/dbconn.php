@@ -1,8 +1,8 @@
 <?php
-$dbuser = getenv('DB_USERNAME');
-$dbpass = getenv('DB_PASSWORD');
+$dbUser = getenv('DB_USERNAME');
+$dbPass = getenv('DB_PASSWORD');
 
-$dbhost = 'localhost';
-$dbname = 'store';
-$dbConnection = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser,$dbpass);
+$dbHost = gethostname();
+$dbName = 'store';
+$dbConnection = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser,$dbPass);
 ?>
