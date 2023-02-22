@@ -5,40 +5,7 @@
    <?php $title="Contacto"?>
 <!DOCTYPE html>
 <html lang="zxx">
-   <head>
-      <title>Dragon Hunt a Games Category Bootstrap responsive Website Template | Contact :: w3layouts</title>
-      <!--meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Dragon Hunt Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-      <script>
-         addEventListener("load", function () {
-         	setTimeout(hideURLbar, 0);
-         }, false);
-         
-         function hideURLbar() {
-         	window.scrollTo(0, 1);
-         }
-      </script>
-      <!--//meta tags ends here-->
-      <!--booststrap-->
-      <link href="dragon_hunt/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-      <!--//booststrap end-->
-      <!-- font-awesome icons -->
-      <link href="dragon_hunt/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
-      <!-- //font-awesome icons -->
-      <!--stylesheets-->
-      <link href="dragon_hunt/css/style.css" rel='stylesheet' type='text/css' media="all">
-      <!--//stylesheets-->
-      <!-- Nav-CSS -->	
-      <link href="dragon_hunt/css/nav.css" rel="stylesheet" type="text/css" media="all" />
-      <script src="dragon_hunt/js/modernizr.custom.js"></script>
-      <!-- //Nav-CSS -->
-      <link href="//fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-   </head>
+   <?php include('includes/head.php')?>
    <body>
       <!--headder-->
       <div class="header-outs">
