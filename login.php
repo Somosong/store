@@ -1,16 +1,17 @@
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
+License: Creative Commons Attrixution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <?php include 'includes/dbconn.php';
-isset($_POST["name"]) ? print $_POST["name"] : "";
-isset($_POST["password"]) ? print $_POST["password"] : "" ?>
+#isset($_POST["name"]) ? print $_POST["name"] : "";
+#isset($_POST["password"]) ? print $_POST["password"] : "" ?>
 <!DOCTYPE html>
 <html>
 
 <head>
+<!DOCTYPE html>
 <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1065329363853250591/1070411013658247168/carrito-supermercado-metalico-dorado-articulos-compras-internet-agregando-icono-d-vector-realista_92753-5317-removebg-preview.png">
 <title>Inicio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,12 +35,17 @@ isset($_POST["password"]) ? print $_POST["password"] : "" ?>
 					<input type="password"  name="password" class="padding" placeholder="Contraseña" required=""/>
 					<input type="submit" value="Enviar">
 				</form>
+				<form action="index.php" method="post">
+					<br>
+					<input type="submit" value="Volver al Inicio">
+				</form>
 			</div>
 		  <div class="clear"> </div>
 		</div>
 		
 		<div class="footer">
-		<p>© 2023 Formulario de Registro Somosong. Por:<a href="https://github.com/Somosong" >  Somosong </a></p>
+			<p>No tienes cuenta? <a href="register.php" > Registrate </a></p>
+			<p>© 2023 Formulario de Registro Somosong. Por:<a href="https://github.com/Somosong" >  Somosong </a></p>
 		</div>
 	</div>
 </body>

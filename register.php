@@ -27,9 +27,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="design-w3l">
 			<div class="mail-form-agile">
 				<form action="#" method="post">
-					<input type="text" name="name" placeholder="Nombre de Usuario o  Email..." required=""/>
-					<input type="password"  name="password" class="padding" placeholder="Contraseña" required=""/>
+					<input type="text" name="email" placeholder="Email" required=""/>
+					<input type="text" name="name" class="padding" placeholder="Nombre de Usuario" required=""/>
+					<input type="password"  name="password" placeholder="Contraseña" required=""/>
+					<br> <br>
 					<input type="submit" value="Enviar">
+				</form>
+				<form action="index.php" method="post">
+					<br>
+					<input type="submit" value="Volver al Inicio">
 				</form>
 			</div>
 		  <div class="clear"> </div>

@@ -4,40 +4,19 @@
 <head>
     <title>Save Info Page</title>
 </head>
-<?php include "dbconn.php" ?>
+<?php include "includes/dbconn.php" ?>
 
 <body>
     <?php
-    // Check connection
-    if ($dbConnection === false) {
-        die("ERROR: Could not connect. "
-            . mysqli_connect_error());
-    }
-
-    // Taking all 4 values from the form data(input)
-    $name =  $_REQUEST['name'];
-    $email = $_REQUEST['email'];
-    $phone =  $_REQUEST['phone'];
-    $text = $_REQUEST['text'];
-    // Performing insert query execution
-    // here our table name is college
-    $sql = "INSERT INTO college  VALUES ('$name',
-            '$phone','$text','$email')";
-
-    if (mysqli_query($dbConnection, $sql)) {
-        echo "<h3>data stored in a database successfully."
-            . " Please browse your localhost php my admin"
-            . " to view the updated data</h3>";
-
-        echo nl2br("\n$name\n $phone\n "
-            . "$text\n $email");
-    } else {
-        echo "ERROR: Hush! Sorry $sql. "
-            . mysqli_error($conn);
-    }
-
-    // Close connection
-    mysqli_close($conn);
+    /* Taking all 4 values from the form data(input)
+     Performing insert query execution
+     here our table name is college*/
+    $sql = $PDO->prepare("INSERT INTO contact (name, email, phone, text)  VALUES(:name, :email, :phone, :text)");
+    $sql->bindParam(':name',$name);
+    $sql->bindParam(':email',$email);
+    $sql->bindParam(':phone',$phone);
+    $sql->bindParam(':text',$text);
+    $sql->execute();
 
     header("Location: thanks.php")
     ?>
