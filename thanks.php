@@ -43,14 +43,12 @@
       <div class="header-outs">
          <div class="header-w3layouts">
             <div class="container">
-               <div class="hedder-logo">
-                  <h1><a href="index.php">   
-                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">SO</a>
-                  </h1>
-               </div>
+
+               <?php include 'includes/button.php'?>
                <!-- /open/close -->
                <!-- /navigation section -->
             </div>
+            <div class="clearfix"> </div>
             <div class="clearfix"> </div>
          </div>
       </div>

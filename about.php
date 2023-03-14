@@ -10,30 +10,8 @@
       <div class="header-outs">
          <div class="header-w3layouts">
             <div class="container">
-               <div class="right-side">
-                  <p>
-                     <button id="trigger-overlay" type="button">
-                     <span class="fa fa-bars" aria-hidden="true"></span>
-                     </button>
-                  </p>
-               </div>
-               <!-- open/close -->
-               <div class="overlay overlay-hugeinc">
-                  <button type="button" class="overlay-close">Close</button>
-                  <nav>
-                     <ul>
-                        <li><a href="index.php" >Pagina Principal</a></li>
-                        <li><a href="about.php" >Sobre Nosotros</a></li>
-                        <li><a href="exclusive.php" >Exclusivo</a></li>
-                        <li><a href="contact.php"  >Contactanos</a></li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="hedder-logo">
-                  <h1><a href="index.php">   
-                     <img src="dragon_hunt/images/logo.png" class="img-fluid" alt="Responsive image">SO</a>
-                  </h1>
-               </div>
+
+               <?php include 'includes/button.php'?>
                <!-- /open/close -->
                <!-- /navigation section -->
             </div>
@@ -51,7 +29,7 @@
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Sobre Nosotros</h3>
             <div class="row">
                <div class="col-lg-6 about-txt-left">
-                  <img src="images/mini_pana.png" alt="" class="img-fluid">
+                  <img src="images/mysterybox.png" alt="" class="img-fluid">
                </div>
                <div class="col-lg-6 about-txt-right">
                   <div class="jst-wthree-text">
@@ -59,13 +37,14 @@
                      </h2>
                   </div>
                   <div class="info-sub-w3">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        Lorem ipsum dolor sit amet
+                     <p>Nosotros SomoSong una tienda dedicada exclusivamente a productos exclusivos, nos centramos en reunir estos poductos de todo 
+                        el mundo e intentamos ser la unica tienda la cual venda estos productos.
                      </p>
-                     <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        Lorem ipsum dolor sit amet
+                     <p class="pt-2">Todos los precios son totalmente negociables hasta ciertos limites, no existe una tienda fisica,
+                         almenos no de manera publica, todos los envios y pagos se haran atraves de la pagina.
+                     </p>
+                     <p class="pt-2">La creacion de esta Idea empezo hace varios años por un simple proyecto en una FP de informatica, 
+                        no fue hasta años despues que la ejecutamos realmente.
                      </p>
                   </div>
                   <div class="abut-fst-img pt-3">
