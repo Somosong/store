@@ -5,7 +5,7 @@
    <?php $title="Contacto"?>
 <!DOCTYPE html>
 <html lang="zxx">
-   <?php include('includes/head.php')?>
+   <?php include('includes/head.php');include('save.php')?>
    <body>
       <!--headder-->
       <div class="header-outs">
@@ -34,37 +34,26 @@
                   $name = isset($_POST["name"]) ? $_POST["name"] : "";
                   $email = isset($_POST["email"]) ? $_POST["email"] : "";
                   $phone = isset($_POST["phone"]) ? $_POST["phone"] : "";
-                  $text = isset($_POST["text"]) ? $_POST["text"] : "";
+                  $text = isset($_POST["text"]) ? $_POST["text"] : "";?>
 
-                  if (($name !="") and ($email !="") and ($phone !="") and ($text !="")) {
-                     $filled = true;
-                  } else {
-                     $filled = false;
-                  }
-                  ?>
                   <div class="contact-form">
                      <form action="save.php" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Nombre" required value="<?php echo $name; ?>">
+                              <input type="text" class="form-control" placeholder="Nombre" name="name" required value="">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="email" class="form-control" placeholder="Email" required value="<?php echo $email; ?>">
+                              <input type="email" class="form-control" placeholder="Email" name="email" required value="">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Teléfono" required value="<?php echo $phone; ?>">
+                              <input type="text" class="form-control" placeholder="Teléfono" name="phone" required value="">
                            </div>
                         </div>
                         <div class="form-group contact-forms">
-                           <textarea class="form-control" placeholder="Mensaje" required value="<?php echo $text; ?>"></textarea >
+                           <textarea class="form-control" placeholder="Mensaje" name="text" required value=""></textarea >
                         </div>
                         <button type="submit" class="btn sent-butnn btn-lg">Enviar</button>
                      </form>
-                     <?php
-                     if($filled==true) {
-                        header("Location: save.php");
-                     }
-                     ?>
                   </div>
                </div>
                <div class="contact-address row mt-lg-5 mt-md-4 mt-3">
