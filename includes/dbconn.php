@@ -2,7 +2,7 @@
 $dbUser = getenv('DB_USERNAME');
 $dbPass = getenv('DB_PASSWORD');
 
-$dbHost = gethostname();
+$dbHost = "localhost";
 $dbName = 'store';
 $PDO = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
 ?>
