@@ -1,8 +1,8 @@
 <div class="right-side">
-      <button type="submit" id="iniciarsesion" type="button">
+   <a href="login.php"><button type="submit" id="iniciarsesion" type="button">
          <span aria-hidden="true"></span>
-         <a href="login.php"></a>
-         Iniciar Sesion</button>
+         
+         Iniciar Sesion</button></a>
       <button id="trigger-overlay" type="button">
          <span class="fa fa-bars" aria-hidden="true"></span>
       </button>
