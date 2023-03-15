@@ -31,7 +31,7 @@
                <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Ponerse en contacto</h3>
                <div class=" contact-wls-detail">
                   <?php
-                  $name = isset($_POST["name"]) ? $_POST["name"] : "";
+                  if $name = isset($_POST["name"]) ? $_POST["name"] : "";
                   $email = isset($_POST["email"]) ? $_POST["email"] : "";
                   $phone = isset($_POST["phone"]) ? $_POST["phone"] : "";
                   $text = isset($_POST["text"]) ? $_POST["text"] : "";?>

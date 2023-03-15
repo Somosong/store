@@ -19,4 +19,4 @@
         echo $exception->getMessage()."<br />";
     }
 
-    header("Location: thanks.php")?>
+    header("Location: thanks.php");die()?>
