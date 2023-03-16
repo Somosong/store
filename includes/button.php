@@ -14,7 +14,7 @@
       <ul>
          <li><a href="index.php">Pagina Principal</a></li>
          <li><a href="about.php">Sobre Nosotros</a></li>
-         <li><a href="exclusive.php">Exclusivo</a></li>
+         <li><a href="mysteryboxes.php">Cajas Misteriosas</a></li>
          <li><a href="contact.php">Contactanos</a></li>
       </ul>
    </nav>

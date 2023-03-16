@@ -28,7 +28,7 @@
                   <h5><b>Somo</b><span class="fab fa-d-and-d"></span ><b>song</b></h5>
                   
                   <div class="outs_more-buttn">
-                     <a href="exclusive.php">Empezar Compra</a>
+                     <a href="mysteryboxes.php">Empezar Compra</a>
                   </div>
                </div>
             </div>

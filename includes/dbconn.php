@@ -4,5 +4,5 @@ $dbPass = getenv('DB_PASSWORD');
 
 $dbHost = "localhost";
 $dbName = 'store';
-$PDO = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
+$con = new mysqli($dbHost,$dbUser,$dbPass,$dbName);
 ?>
