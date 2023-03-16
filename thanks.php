@@ -5,12 +5,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>Dragon Hunt a Games Category Bootstrap responsive Website Template | Thanks :: w3layouts</title>
+      <?php $title = "Gracias por su mensaje";include 'includes/head.php';header("refresh:10;url=contact.php")?>
       <!--meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Dragon Hunt Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
       <script>
          addEventListener("load", function () {
          	setTimeout(hideURLbar, 0);
@@ -62,6 +58,7 @@
          <section class="contact-inner py-lg-4 py-md-3 py-sm-3 py-3">
             <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
                <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Formulario Enviado</h3>
+               Gracias por contactar con nosotros, su mensaje sera procesado en unas 24 horas, por favor, sea paciente.^^
             </div>
          </section>
          <!--Footer -->   

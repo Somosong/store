@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Save Info Page</title>
-</head>
-<?php include "includes/dbconn.php"; 
-    /* Taking all 4 values from the form data(input)
-     Performing insert query execution
-     here our table name is college*/
-    try{
-    $sql = $PDO->prepare("INSERT INTO contact (name, email, phone, text)  VALUES(:name, :email, :phone, :text)");
-    $sql->bindParam(':name',$name);
-    $sql->bindParam(':email',$email);
-    $sql->bindParam(':phone',$phone);
-    $sql->bindParam(':text',$text);
-    $sql->execute();
-    } catch (PDOException $exception){
-        echo $exception->getMessage()."<br />";
-    }
-
-    header("Location: thanks.php");die()?>
+<?php include 'includes/dbConn.php';
+$name = $_POST["name"];
+$email = $_POST["email"];
+$phone = $_POST["phone"];
+$text = $_POST["text"];
+mysqli_query($con,"INSERT INTO contact(name,email,phone,text) VALUES ('$name','$email','$phone','$text')");
+header("Location: thanks.php")?>

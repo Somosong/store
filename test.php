@@ -1,1 +1,0 @@
-<?php $A = getenv('DB_USERNAME');$B = getenv('DB_PASSWORD');echo $A.$B?>
